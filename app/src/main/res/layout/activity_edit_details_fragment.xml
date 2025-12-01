@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/details_image"
+        android:layout_width="260dp"
+        android:layout_height="168dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/default_product_image" />
+
+    <TextView
+        android:id="@+id/details_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/details_image"
+        android:layout_marginTop="6dp"
+        android:textSize="30sp"
+        android:text="Title"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/r"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/details_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/details_title"
+        android:layout_marginTop="4dp"
+        android:text="Description"
+        android:textColor="@color/dashboardColor1"
+        android:fontFamily="@font/t"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/productNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:hint="Product Name"
+        android:layout_below="@+id/details_description"/>
+
+    <EditText
+        android:id="@+id/productDescriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:hint="Product Description"
+        android:layout_below="@+id/productNameEditText"/>
+
+    <ImageView
+        android:id="@+id/productImageView"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="#F6EFE6"
+        android:layout_below="@+id/productDescriptionEditText"
+
+        android:contentDescription="Product Image"/>
+
+    <Button
+        android:id="@+id/selectImageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Select Image"
+        android:layout_below="@+id/productImageView" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="Add Product"
+        android:layout_below="@+id/selectImageButton"/>
+
+</RelativeLayout>

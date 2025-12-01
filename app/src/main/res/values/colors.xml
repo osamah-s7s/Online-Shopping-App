@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E4FFB343</color>
+    <color name="darkPrimary">#E64A19</color>
+    <color name="lightPrimary">#FFB74D</color>
+    <color name="primaryText">#333333</color>
+    <color name="secondaryText">#757575</color>
+    <color name="icons">#A9A9A9</color>
+    <color name="colorAccent">#FFC107</color>
+    <color name="accentText">#333333</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="background">#FFFFFF</color>
+    <color name="colorPrimaryDark">#E64A19</color>
+    <color name="lightGray">#E4DFDF</color>
+
+    <color name="dashboardColor1">#FFD08B</color> <!-- Primary Color -->
+    <color name="dashboardColor2">#F79171</color> <!-- Dark Orange -->
+    <color name="dashboardColor3">#FFB74D</color> <!-- Light Orange -->
+    <color name="dashboardColor4">#90C9F6</color> <!-- Blue -->
+    <color name="dashboardColor5">#A0FFA4</color> <!-- Green -->
+    <color name="dashboardColor6">#ECA48D</color> <!-- Deep Orange -->
+    <color name="dashboardColor7">#B99CEC</color> <!-- Deep Purple -->
+    <color name="dashboardColor8">#607D8B</color> <!-- Blue Grey -->
+    <color name="dashboardColor9">#9E9E9E</color> <!-- Grey -->
+    <color name="dashboardColor10">#FFFFFF</color> <!-- White -->
+
+
+
+
+
+
+    //indicator color
+    <color name="inactive">#C4C4C4</color>
+    <color name="active">#E4FFB343</color>
+
+</resources>

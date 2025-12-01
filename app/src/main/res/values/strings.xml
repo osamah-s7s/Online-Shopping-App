@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Oshu Store</string>
+
+    <!-- Headings -->
+    <string name="heading_one">Heart It, Save It, Own It!</string>
+    <string name="heading_two">Cart It in a Snap!</string>
+    <string name="heading_three">Get More, Pay Less!</string>
+    <string name="heading_fourth">Pay Anywhere</string>
+
+    <!-- Descriptions -->
+    <string name="desc_one">"Elevate your shopping experience with our Wishlist feature. Simply 'Heart It' to save your favorites, 'Save It' for later, and soon, you'll 'Own It'! Start building your personal collection of must-have items today."</string>
+    <string name="desc_two">"Experience lightning-fast shopping with our intuitive interface. Browse, click, and 'Cart It in a Snap!' – the easiest way to shop online. Enjoy effortless, streamlined shopping at your fingertips."</string>
+    <string name="desc_three">"Experience incredible savings with our exclusive discounts. Shop your favorite items and enjoy the thrill of getting more for less. Don't miss out on unbeatable deals that make shopping a smart choice."</string>
+    <string name="desc_fourth">"Experience the convenience of our fast and reliable delivery service. From your cart to your curb, we're dedicated to bringing your purchases straight to your doorstep, swiftly and securely."</string>
+
+    <string name="mart">Mart</string>
+    <string name="Dashboard">"Welcome to Oshu Store"</string>
+
+    <string name="Apple_Product1">"Apple iPhone 13 Pro Maxx - 6.7" Inch Display - Dual Physical Sim - PTA Approved"</string>
+</resources>
