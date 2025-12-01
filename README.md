@@ -35,12 +35,12 @@ Perfect for portfolio projects, learning Android development, or as a foundation
 
 | | |
 |:-------------------------:|:-------------------------:|
-|<img src="screenshots/Screenshot_20251201_154459.png" width="300"> Login Screen | <img src="screenshots/Screenshot_20251201_154524.png" width="300"> Sign Up |
-|<img src="screenshots/Screenshot_20251201_154535.png" width="300"> Onboarding | <img src="screenshots/Screenshot_20251201_154545.png" width="300"> Main Store |
-|<img src="screenshots/Screenshot_20251201_154555.png" width="300"> Product Details | <img src="screenshots/Screenshot_20251201_154619.png" width="300"> All Products |
-|<img src="screenshots/Screenshot_20251201_154658.png" width="300"> Cart View | <img src="screenshots/Screenshot_20251201_154741.png" width="300"> Admin Dashboard |
-|<img src="screenshots/Screenshot_20251201_154854.png" width="300"> Add Product | <img src="screenshots/Screenshot_20251201_154910.png" width="300"> Edit Product |
-|<img src="screenshots/Screenshot_20251201_154927.png" width="300"> Delete Product | |
+|<img src="screenshots/Screenshot_20251201_154459.png" width="300"> Splash Screen | <img src="screenshots/Screenshot_20251201_154524.png" width="300"> Onboarding - Wishlist |
+|<img src="screenshots/Screenshot_20251201_154535.png" width="300"> Onboarding - Shopping | <img src="screenshots/Screenshot_20251201_154545.png" width="300"> Onboarding - Best Price |
+|<img src="screenshots/Screenshot_20251201_154555.png" width="300"> Onboarding - Delivery | <img src="screenshots/Screenshot_20251201_154619.png" width="300"> Login Screen |
+|<img src="screenshots/Screenshot_20251201_154658.png" width="300"> Admin Dashboard | <img src="screenshots/Screenshot_20251201_154741.png" width="300"> Sign Up Screen |
+|<img src="screenshots/Screenshot_20251201_154854.png" width="300"> Customer Home Store | <img src="screenshots/Screenshot_20251201_154910.png" width="300"> Profile Menu |
+|<img src="screenshots/Screenshot_20251201_154927.png" width="300"> Cart Menu | |
 
 </div>
 
