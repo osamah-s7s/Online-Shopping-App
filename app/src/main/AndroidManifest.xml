@@ -26,9 +26,6 @@
             android:name=".ProductsMain.AllProductsActivity"
             android:exported="false" />
         <activity
-            android:name=".Admin.EditDetailsFragment"
-            android:exported="false" />
-        <activity
             android:name=".MainScreen"
             android:exported="false" /> <!-- Only one launcher activity (MainActivity) -->
         <activity

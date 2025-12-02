@@ -56,7 +56,9 @@ public class FeaturedAdapter extends RecyclerView.Adapter<FeaturedAdapter.Featur
         holder.cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                selectListner.onitemClick(featuredLocations.get(position));
+                if (selectListner != null) {
+                    selectListner.onitemClick(featuredHelperClass);
+                }
             }
         });
 
