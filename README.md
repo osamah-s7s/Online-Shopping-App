@@ -7,7 +7,7 @@
 ![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
-**A complete Android e-commerce solution with dual Admin/User interfaces**
+**A simple Android e-commerce app with dual Admin/User interfaces - Work in Progress**
 
 [Features](#features) • [Firebase Setup](#firebase-integration) • [Installation](#installation) • [Usage](#usage)
 
@@ -15,19 +15,18 @@
 
 ---
 
-A production-ready Android shopping app demonstrating modern mobile development practices. Features separate admin dashboard for inventory management and customer interface for seamless shopping experience. Perfect for learning Android development, Firebase integration, and SQLite database management.
+A simple Android shopping app demonstrating basic mobile development concepts. Features separate admin dashboard for inventory management and customer interface for shopping. This is a work-in-progress project that needs further development and improvements. Perfect for learning Android development, Firebase integration, and SQLite database management.
 
-## What Makes This Project Special
+## About This Project
 
-This isn't just another shopping app. Oshu Store demonstrates:
+Oshu Store is a simple e-commerce app that demonstrates:
 
 - **Dual-role architecture** - Separate admin and customer experiences in one app
-- **Real-world patterns** - Firebase Authentication, SQLite database, Material Design
-- **Complete workflow** - From product creation to customer purchase
-- **Production-ready structure** - Clean code organization, proper error handling
-- **Learning resource** - Well-documented code perfect for Android developers
+- **Basic patterns** - Firebase Authentication, SQLite database, Material Design
+- **Simple workflow** - Product creation and browsing functionality
+- **Learning resource** - Good starting point for Android developers
 
-Perfect for portfolio projects, learning Android development, or as a foundation for your own e-commerce app.
+**Note**: This is a work-in-progress project. Many features are incomplete and the app needs significant development to be fully functional. Contributions, improvements, and feature additions are highly welcome!
 
 ## Screenshots
 
@@ -149,7 +148,9 @@ cd onlineshoppingapp
 3. **Open in Android Studio** and wait for Gradle sync
 4. **Run on emulator** or physical device
 
-That's it! The app will build and run. Create an admin account using `email@example.com` to access the admin dashboard.
+That's it! The app will build and run. 
+
+**To access the admin dashboard**: Create an admin account using `email@example.com` with any password you choose (remember it for login). See [Admin Account Setup](#admin-account-setup) for detailed instructions.
 
 ## Usage
 
@@ -218,13 +219,41 @@ app/src/main/java/com/oshu/store/
 
 ## Contributing
 
-Contributions are welcome. Please follow these steps:
+**Contributions are very welcome!** This project is actively seeking improvements and new features. Whether it's bug fixes, new features, code improvements, or documentation updates, your help is appreciated.
+
+### How to Contribute
 
 1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
+
+### Areas That Need Work
+
+- Payment integration
+- Order management system
+- User reviews and ratings
+- Wishlist functionality
+- Product search improvements
+- Image upload optimization
+- Error handling enhancements
+- UI/UX improvements
+- Testing coverage
+- Documentation
+
+Feel free to pick any of these or suggest your own improvements!
+
+## CI/CD
+
+This project includes automated CI/CD workflows using GitHub Actions:
+
+- **Automated Builds**: Builds debug and release APKs on every push
+- **Unit Tests**: Runs JUnit tests automatically
+- **Lint Checks**: Validates code quality with Android Lint
+- **Artifact Upload**: APKs and test results are available as downloadable artifacts
+
+Workflows are configured in `.github/workflows/`. See [CI/CD Documentation](.github/workflows/README.md) for details.
 
 ## Tech Stack
 
@@ -235,16 +264,7 @@ Contributions are welcome. Please follow these steps:
 - **UI**: Material Design Components
 - **Image Loading**: Glide
 - **Architecture**: MVC with Fragments
-
-## Contributing
-
-Found a bug or have a feature idea? Contributions are welcome!
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+- **CI/CD**: GitHub Actions
 
 ## License
 

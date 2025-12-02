@@ -16,3 +16,6 @@ local.properties
 
 # Firebase configuration (contains sensitive API keys)
 app/google-services.json
+
+# CI/CD artifacts (optional - uncomment if you don't want to track workflow files)
+# .github/workflows/
