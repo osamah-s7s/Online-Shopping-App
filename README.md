@@ -17,7 +17,7 @@
 
 A simple Android shopping app demonstrating basic mobile development concepts. Features separate admin dashboard for inventory management and customer interface for shopping. This is a work-in-progress project that needs further development and improvements. Perfect for learning Android development, Firebase integration, and SQLite database management.
 
-## About This Project
+# About This Project
 
 Oshu Store is a simple e-commerce app that demonstrates:
 
